@@ -11,3 +11,10 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+ol{
+	margin: 0em;
+	padding: 0em;
+	text-align: center;
+	text-decoration: none;
+}
+

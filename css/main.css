@@ -11,10 +11,19 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-ol{
+nav ol{
 	margin: 0em;
 	padding: 0em;
 	text-align: center;
 	text-decoration: none;
 }
 
+nav a{
+	text-decoration: none;
+}
+
+nav li{
+	list-style-type: none;
+display: inline-block;
+
+}

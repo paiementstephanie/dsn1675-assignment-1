@@ -14,7 +14,13 @@ img{
 nav{
 	margin: 0em;
 	padding: 0em;
-	background-color: rgba(81, 34, 0, 0.5);
+	background-color: black;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: .9em;
 }
 
 body{
@@ -29,12 +35,11 @@ nav ol{
 	text-decoration: none;
 }
 
-nav a{
-	text-decoration: none;
-}
 
 nav li{
 	list-style-type: none;
-display: inline-block;
+	float: left;
+	width: 25%;
+	margin: 0em 0em 1em 0em;
 
 }

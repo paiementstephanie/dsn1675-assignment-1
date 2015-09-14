@@ -53,3 +53,11 @@ nav li{
 	left:5%;
 	color: white;
 }
+
+a{
+	text-decoration: none;
+}
+
+h1, h2, h3, p{
+	margin: 1em;
+}

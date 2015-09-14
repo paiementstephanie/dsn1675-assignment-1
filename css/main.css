@@ -6,6 +6,17 @@ html {
 	box-sizing: inherit;
 }
 
+img{
+	width: 100%;
+	display: block;
+}
+
+nav{
+	margin: 0em;
+	padding: 0em;
+	background-color: rgba(81, 34, 0, 0.5);
+}
+
 body{
 	margin: 0em;
 	font-family: 'Roboto', sans-serif;

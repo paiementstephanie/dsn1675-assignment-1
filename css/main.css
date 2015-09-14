@@ -18,7 +18,7 @@ nav{
 }
 
 nav a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-size: .9em;
 }
@@ -33,13 +33,23 @@ nav ol{
 	padding: 0em;
 	text-align: center;
 	text-decoration: none;
+	background-color: yellow;
 }
-
 
 nav li{
 	list-style-type: none;
 	float: left;
 	width: 25%;
 	margin: 0em 0em 1em 0em;
+}
 
+.maerten{
+	position: relative;
+}
+
+.billboard{
+	position: absolute;
+	top:25%;
+	left:5%;
+	color: white;
 }

@@ -63,9 +63,11 @@ nav li{
 	top:580%;
 	left:5%;
 	color: white;
-
 }
 
+ol li{
+	list-style-type: none;
+}
 
 a{
 	text-decoration: none;
@@ -146,3 +148,17 @@ h1, h2, h3, p, a, footer{
 	float:left;
 }
 
+.box-price{
+	position:relative;
+	text-align:center;
+	width:50%;
+	float:left;
+}
+
+.btn-right{
+	float:right;
+}
+
+.btn-left{
+	float: left;
+}

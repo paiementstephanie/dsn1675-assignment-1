@@ -56,15 +56,14 @@ nav li{
 
 .atlantis{
 	position: relative;
-	overflow: hidden;
 }
 
 .billboard2{
 	position: absolute;
-	top:570%;
+	top:580%;
 	left:5%;
 	color: white;
-	overflow: hidden;
+
 }
 
 
@@ -146,3 +145,4 @@ h1, h2, h3, p, a, footer{
 	width:100%;
 	float:left;
 }
+

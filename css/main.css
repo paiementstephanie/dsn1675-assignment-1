@@ -54,6 +54,20 @@ nav li{
 	color: white;
 }
 
+.atlantis{
+	position: relative;
+	overflow: hidden;
+}
+
+.billboard2{
+	position: absolute;
+	top:570%;
+	left:5%;
+	color: white;
+	overflow: hidden;
+}
+
+
 a{
 	text-decoration: none;
 }
@@ -120,6 +134,13 @@ h1, h2, h3, p, a, footer{
 }
 
 .box-lighthouse{
+	position:relative;
+	text-align:center;
+	width:100%;
+	float:left;
+}
+
+.box-atl{
 	position:relative;
 	text-align:center;
 	width:100%;

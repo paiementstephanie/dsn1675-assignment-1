@@ -43,6 +43,17 @@ nav li{
 	margin: 0em 0em 1em 0em;
 }
 
+.masthead{
+	background-image: url("../img/logo.svg");
+	background-size: 55px auto;
+	padding-top: .5em;
+	background-repeat: no-repeat;
+	background-position: left 20px;
+	text-align: center;
+}
+
+
+
 .maerten{
 	position: relative;
 }
@@ -73,7 +84,7 @@ a{
 }
 
 h1, h2, h3, p, a, footer{
-	margin: 1em;
+	margin: 0.5em;
 }
 
 .btn{

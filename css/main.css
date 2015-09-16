@@ -33,7 +33,6 @@ nav ol{
 	padding: 0em;
 	text-align: center;
 	text-decoration: none;
-	background-color: yellow;
 }
 
 nav li{
@@ -50,6 +49,7 @@ nav li{
 	background-repeat: no-repeat;
 	background-position: left 20px;
 	text-align: center;
+	margin: 1em;
 }
 
 .maerten{
@@ -165,4 +165,9 @@ h1, h2, h3, p, a, footer{
 	text-align:center;
 	width:100%;
 	float:left;
+}
+
+.giza-list{
+	float:left;
+	width: 33%;
 }

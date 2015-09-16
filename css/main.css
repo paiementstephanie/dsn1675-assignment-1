@@ -81,9 +81,10 @@ a{
 	text-decoration: none;
 }
 
-h1, h2, h3, p, a, footer{
+h1,h2, h3, p, a, footer{
 	margin: 0.5em;
 }
+
 
 .btn {
 	color: white;
@@ -139,7 +140,7 @@ h1, h2, h3, p, a, footer{
 	text-align:center;
 }
 
-.box-giz
+.box-giza{
 	width:100%;
 	float:left;
 }

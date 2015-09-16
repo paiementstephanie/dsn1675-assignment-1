@@ -203,18 +203,15 @@ padding:1em;
 	margin-top: 5em;
 }
 
+@media only screen and (min-width: 39em){
 
-.column-1{
-	float:left;
-	width:33.3333%;
+.atl-text{
+	font-size: 1.2em;
 }
 
-.column-2{
-	float:left;
-	width:33.3333%;
+.box-wonder{
+	width: 50%;
+	float: left;
 }
 
-.column-3{
-	float:left;
-	width:33.3333%;
 }

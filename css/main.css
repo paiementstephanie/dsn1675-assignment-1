@@ -95,8 +95,13 @@ h1, h2, h3, p, a, footer{
 	background-image: linear-gradient(to bottom, #6fbf44, #388200);
 	box-shadow: 5px 2px 2px #000;
 	left:20%;
-	width: 50%;
 	bottom: 1.5em;
+	text-align:center;
+	clear:both;
+}
+
+.btn a{
+	text-align:center;
 }
 
 .btn-2 {
@@ -130,69 +135,56 @@ h1, h2, h3, p, a, footer{
 	margin-bottom: 3em;
 }
 
-.box-giza{
-	position:relative;
-	text-align:left;
+.learn-more{
+	text-align:center;
+}
+
+.box-giz
 	width:100%;
 	float:left;
 }
 
 .box-garden{
-	position:relative;
-	text-align:center;
+
 	width:100%;
 	float:left;
 }
 
 .box-artemis{
-	position:relative;
-	text-align:center;
 	width:100%;
 	float:left;
 }
 
 .box-zeus{
-	position:relative;
-	text-align:center;
 	width:100%;
 	float:left;
 }
 
 .box-maus{
-	position:relative;
-	text-align:center;
 	width:100%;
 	float:left;
 }
 
 .box-col{
-	position:relative;
-	text-align:center;
 	width:100%;
 	float:left;
 }
 
 .box-lighthouse{
-	position:relative;
-	text-align:center;
 	width:100%;
 	float:left;
 }
 
 .box-atl{
-	position:relative;
-	text-align:center;
 	width:100%;
 	float:left;
 }
 
 .box-price{
-	position:relative;
 	text-align:center;
 }
 
 .box-tickets{
-	position:relative;
 	text-align:center;
 	width:100%;
 	float:left;
@@ -201,4 +193,8 @@ h1, h2, h3, p, a, footer{
 .giza-list{
 	float:left;
 	width: 33%;
+}
+
+.play{
+	margin-top: 5em;
 }

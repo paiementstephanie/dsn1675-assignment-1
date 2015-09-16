@@ -73,11 +73,15 @@ nav li{
 	color: white;
 }
 
-
-
-ol li{
-	list-style-type: none;
+.week{
+	text-align:center;
 }
+
+ol{
+	padding:0em;
+	margin-bottom: 2em;
+}
+
 
 a{
 	text-decoration: none;
@@ -148,40 +152,14 @@ h1,h2, h3, p, a, footer{
 	text-align:center;
 }
 
-.box-giza{
+
+.box-wonder{
 	width:100%;
 	float:left;
 }
 
-.box-garden{
-
-	width:100%;
-	float:left;
-}
-
-.box-artemis{
-	width:100%;
-	float:left;
-}
-
-.box-zeus{
-	width:100%;
-	float:left;
-}
-
-.box-maus{
-	width:100%;
-	float:left;
-}
-
-.box-col{
-	width:100%;
-	float:left;
-}
-
-.box-lighthouse{
-	width:100%;
-	float:left;
+.box-wonder img{
+padding:1em;
 }
 
 .box-atl{
@@ -206,4 +184,20 @@ h1,h2, h3, p, a, footer{
 
 .play{
 	margin-top: 5em;
+}
+
+
+.column-1{
+	float:left;
+	width:33.3333%;
+}
+
+.column-2{
+	float:left;
+	width:33.3333%;
+}
+
+.column-3{
+	float:left;
+	width:33.3333%;
 }

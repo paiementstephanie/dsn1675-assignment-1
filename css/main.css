@@ -73,6 +73,8 @@ nav li{
 	color: white;
 }
 
+
+
 ol li{
 	list-style-type: none;
 }
@@ -134,6 +136,12 @@ h1,h2, h3, p, a, footer{
 	bottom: 1.5em;
 	float:right;
 	margin-bottom: 3em;
+}
+
+.btn-wrap{
+	text-align:center;
+	clear:both;
+	margin-bottom:2em;
 }
 
 .learn-more{

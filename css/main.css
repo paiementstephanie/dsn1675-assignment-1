@@ -101,7 +101,7 @@ h1, h2, h3, p, a, footer{
 
 .box-giza{
 	position:relative;
-	text-align:center;
+	text-align:left;
 	width:100%;
 	float:left;
 }

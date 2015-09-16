@@ -69,8 +69,14 @@ nav li{
 
 .billboard2{
 	position: relative;
-	top:400%;
 	color: white;
+}
+
+.atl-text{
+	position:absolute;
+	bottom: 0em;
+	width: 100%;
+	text-align:center;
 }
 
 .week{

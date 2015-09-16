@@ -97,6 +97,21 @@ h1,h2, h3, p, a, footer{
 	margin: 0.5em;
 }
 
+dt{
+	font-weight: bold;
+	float:left;
+	clear:left;
+	margin-right: 0.4em;
+}
+
+dd{
+	margin:0em;
+	float:left;
+}
+
+dl{
+	padding-left: 1em;
+}
 
 .btn {
 	color: white;
@@ -111,6 +126,7 @@ h1,h2, h3, p, a, footer{
 	bottom: 1.5em;
 	text-align:center;
 	clear:both;
+	margin-top: 2em;
 }
 
 .btn a{
@@ -181,11 +197,6 @@ padding:1em;
 	text-align:center;
 	width:100%;
 	float:left;
-}
-
-.giza-list{
-	float:left;
-	width: 33%;
 }
 
 .play{

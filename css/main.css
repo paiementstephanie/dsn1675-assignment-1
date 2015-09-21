@@ -145,9 +145,8 @@ dl{
 	background-image: linear-gradient(to bottom, #6fbf44, #388200);
 	box-shadow: 5px 2px 2px #000;
 	left:20%;
-	width: 50%;
 	bottom: 1.5em;
-	float:left;
+
 }
 
 .btn-3 {
@@ -160,9 +159,7 @@ dl{
 	background-image: linear-gradient(to bottom, #6fbf44, #388200);
 	box-shadow: 5px 2px 2px #000;
 	left:20%;
-	width: 40%;
 	bottom: 1.5em;
-	float:right;
 	margin-bottom: 3em;
 }
 
@@ -202,7 +199,7 @@ padding:1em;
 }
 
 .play{
-	margin-top: 5em;
+	margin-top: 1em;
 }
 
 @media only screen and (min-width: 39em){
@@ -222,7 +219,7 @@ padding:1em;
 }
 
 .play{
-	margin-top:1em;
+	margin-top:.1em;
 }
 
 .day{

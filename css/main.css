@@ -215,4 +215,13 @@ padding:1em;
 	float: left;
 }
 
+.box-price{
+	display: inline-block;
+	width: 100%;
+}
+
+.play{
+	margin-top:1em;
+}
+
 }

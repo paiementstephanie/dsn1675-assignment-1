@@ -135,7 +135,7 @@ dl{
 	bottom: 25%;
 	text-align:center;
 	clear:both;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 .btn a{
@@ -255,14 +255,14 @@ padding:1em;
 		margin-bottom: 2em;
 	}
 
-.all-wonders{
-	max-width: 40em;
-	margin: auto;
-}
-
-	footer{
-		clear:both;
+	.all-wonders{
+		max-width: 40em;
+		margin: auto;
 	}
+
+		footer{
+			clear:both;
+		}
 
 }
 

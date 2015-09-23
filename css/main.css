@@ -233,7 +233,7 @@ padding:1em;
 .l-house{
 	text-align:center;
 	width: 50%;
-	clear:both;
+	float:none;
 	margin: auto;
 	margin-bottom: 2em;
 }

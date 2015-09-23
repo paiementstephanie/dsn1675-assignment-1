@@ -82,7 +82,7 @@ nav li{
 
 .atl-text{
 	position:absolute;
-	bottom: 0em;
+	bottom: 25%;
 	width: 100%;
 	text-align:center;
 }
@@ -132,7 +132,7 @@ dl{
 	background-image: linear-gradient(to bottom, #6fbf44, #388200);
 	box-shadow: 5px 2px 2px #000;
 	left:20%;
-	bottom: 1.5em;
+	bottom: 25%;
 	text-align:center;
 	clear:both;
 	margin-top: 2em;
@@ -254,6 +254,11 @@ padding:1em;
 		margin: auto;
 		margin-bottom: 2em;
 	}
+
+.all-wonders{
+	max-width: 40em;
+	margin: auto;
+}
 
 	footer{
 		clear:both;

@@ -58,16 +58,16 @@ nav li{
 	margin: 1em;
 }
 
-.maerten{
+.billboard-wrap{
 	position: relative;
 }
 
 .billboard{
 	position: absolute;
-	top:32%;
-	left:5%;
+	bottom:3em;
 	color: white;
 	text-align:center;
+	width:100%;
 }
 
 

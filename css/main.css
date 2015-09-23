@@ -223,10 +223,15 @@ padding:1em;
 }
 
 .day{
-	width: 50%;
-	float: left;
+	width: 45%;
+	display: inline-block;
 	padding: 0.7em;
 	padding-bottom: 2em;
+	min-height:7em;
+}
+
+.lighthouse{
+float:center;
 }
 
 footer{
@@ -236,17 +241,17 @@ footer{
 }
 
 
-@media only screen and (min-width: 65em){
+@media only screen and (min-width: 55em){
 
 .day{
-	width: 33.333%;
-	float: left;
+	width: 30%;
 }
 
 .footer-links{
 	width: 50%;
 	float:left;
 	clear:all;
+	padding: 2em;
 }
 
 

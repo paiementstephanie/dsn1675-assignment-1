@@ -210,51 +210,62 @@ padding:1em;
 
 @media only screen and (min-width: 39em){
 
-.atl-text{
-	font-size: 1.2em;
-}
+	html{
+		font-size: 110%;
+		line-height: 1.4;
+	}
 
-.box-wonder{
-	width: 50%;
-	float: left;
-}
+	.atl-text{
+		font-size: 1.2em;
+	}
 
-.box-price{
-	display: inline-block;
-	width: 100%;
-}
+	.box-wonder{
+		width: 50%;
+		float: left;
+	}
 
-.play{
-	margin-top:.1em;
-}
+	.box-price{
+		display: inline-block;
+		width: 100%;
+	}
 
-.day{
-	width: 45%;
-	display: inline-block;
-	padding: 0.7em;
-	padding-bottom: 2em;
-	min-height:7em;
-}
+	.play{
+		margin-top:.1em;
+	}
 
-.l-house{
-	text-align:center;
-	width: 50%;
-	float:none;
-	margin: auto;
-	margin-bottom: 2em;
-}
+	.day{
+		width: 45%;
+		display: inline-block;
+		padding: 0.7em;
+		padding-bottom: 2em;
+		min-height:7em;
+	}
 
-footer{
-	clear:both;
-}
+	.l-house{
+		text-align:center;
+		width: 50%;
+		float:none;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+
+	footer{
+		clear:both;
+	}
 
 }
 
 
 @media only screen and (min-width: 55em){
 
+html{
+	font-size:120%;
+	line-height: 1.5;
+
 .day{
 	width: 30%;
+	max-width: 40em;
+	margin: 0 auto;
 }
 
 .footer-links{
@@ -264,5 +275,46 @@ footer{
 	padding: 2em;
 }
 
+.box-wonder{
+	max-width: 40em;
+	margin: 0 auto;
+}
 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print{
+
+nav{
+	display:none;
+}
+
+main a::after {
+	content: " (" attr(href) ")" ;
+	text-decoration: none;
+	color: gray;
 }

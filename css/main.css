@@ -174,12 +174,12 @@ dl{
 }
 
 
-.box-wonder{
+.box-wonder, .l-house{
 	width:100%;
 	float:left;
 }
 
-.box-wonder img{
+.box-wonder img, .l-house img{
 padding:1em;
 }
 
@@ -230,8 +230,12 @@ padding:1em;
 	min-height:7em;
 }
 
-.lighthouse{
-float:center;
+.l-house{
+	text-align:center;
+	width: 50%;
+	clear:both;
+	margin: auto;
+	margin-bottom: 2em;
 }
 
 footer{

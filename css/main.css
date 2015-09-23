@@ -70,6 +70,7 @@ nav li{
 	text-align:center;
 }
 
+
 .atlantis{
 	position: relative;
 }
@@ -239,6 +240,7 @@ padding:1em;
 		padding: 0.7em;
 		padding-bottom: 2em;
 		min-height:7em;
+		vertical-align: top;
 	}
 
 	.l-house{
@@ -261,6 +263,7 @@ padding:1em;
 html{
 	font-size:120%;
 	line-height: 1.5;
+}
 
 .day{
 	width: 30%;
@@ -271,7 +274,6 @@ html{
 .footer-links{
 	width: 50%;
 	float:left;
-	clear:all;
 	padding: 2em;
 }
 
@@ -279,7 +281,6 @@ html{
 	max-width: 40em;
 	margin: 0 auto;
 }
-
 
 
 }
@@ -310,6 +311,10 @@ html{
 @media print{
 
 nav{
+	display:none;
+}
+
+.btn{
 	display:none;
 }
 

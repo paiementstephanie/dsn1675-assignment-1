@@ -336,4 +336,13 @@ main a::after {
 	text-decoration: none;
 	color: gray;
 }
+
+.atl-text{
+	display:none;
+}
+
+.billboard{
+	display:none;
+}
+
 }
